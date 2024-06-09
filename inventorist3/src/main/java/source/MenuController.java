@@ -30,7 +30,7 @@ public class MenuController {
     @SuppressWarnings("unchecked")
     public void initialize() throws IOException, SQLException{
         TableColumn<Barang, String> colNama = new TableColumn<Barang, String>("Nama");
-        TableColumn<Barang, Integer> colKuantitas = new TableColumn<Barang, Integer>("Qty");
+        TableColumn<Barang, Integer> colKuantitas = new TableColumn<Barang, Integer>("Kuantitas");
         TableColumn<Barang, ImageView> colImage = new TableColumn<Barang, ImageView>("Gambar");
         TableColumn<Barang, String> colTipe = new TableColumn<Barang, String>("Tipe");
 
